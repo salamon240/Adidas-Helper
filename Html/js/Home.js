@@ -1,32 +1,11 @@
 
-let btnHome;
 document.querySelector("body").style.backgroundColor="white"
-document.getElementById("btn-blue").onclick=function()
-{
-    console.log("blue")
-    btnHome="blue"
-    
-}
-document.getElementById("btn-red").onclick=function()
-{}
-document.getElementById("btn-purple").onclick=function()
-{}
-document.getElementById("btn-yellow").onclick=function()
-{}
-document.getElementById("btn-pink").onclick=function()
-{}
-document.getElementById("btn-green").onclick=function()
-{}
-document.getElementById("btn-orange").onclick=function()
-{}
-document.getElementById("btn-black").onclick=function()
-{}
-document.getElementById("btn-white").onclick=function()
-{}
-document.getElementById("btn-brown").onclick=function()
-{}
-document.getElementById("btn-grey").onclick=function()
-{}
+let h1Stayle= document.querySelector('h1')
+const h1 =h1Stayle
+h1.style.fontSize="30px"
+h1.style.color="white"
+h1.style.textAlign="center"
+
 
 
 const li = document.createElement('li')
@@ -41,3 +20,5 @@ link.className='secodary-content'
 link.innerHTML='<i class=material-icons>grade</i>'
 li.appendChild(link)
 document.querySelector('ul').appendChild(li)
+
+

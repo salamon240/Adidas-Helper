@@ -1,0 +1,23 @@
+.container{
+    padding: 50px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#get-joke{
+
+    background-color:coral;
+    border-radius: 30px ;
+    padding: 15px  32px;
+    color: cornsilk;
+    font-size: xx-large;
+    border:none;
+    display: inline-block;
+
+
+}
+
+.display-fact{
+    padding-top: 15px;
+
+}
